@@ -1,0 +1,101 @@
+/* ================================================================= */
+/* VisionGuard Design System - Responsive & Media Query Rules         */
+/* ================================================================= */
+
+/* Tablets and Medium Screens (Max-Width: 1024px) */
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  section {
+    padding: 5rem 0;
+  }
+}
+
+/* Mobile Devices and Small Screens (Max-Width: 768px) */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+
+  /* Typography Adjustments */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* Navigation adjustments */
+  .nav-container {
+    height: 70px;
+    padding: 0 1.25rem;
+  }
+
+  .nav-menu {
+    top: 70px;
+    height: calc(100vh - 70px);
+  }
+
+  /* Hero Adjustments */
+  .hero {
+    padding: 8rem 1.25rem 4rem;
+    min-height: auto;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-visual {
+    height: 300px;
+  }
+
+  /* Component Spacing */
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+/* Extra Small Devices (Max-Width: 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-badges {
+    gap: 0.5rem;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.625rem;
+  }
+}
