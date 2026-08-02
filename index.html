@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisionGuard — AI-Assisted Eye Health Platform</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- Navigation Bar                                                   -->
+  <!-- ================================================================= -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path>
+          </svg>
+        </div>
+        <div class="nav-brand-text">Vision<span>Guard</span></div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="diseases.html" class="nav-link">Conditions</a>
+        <a href="assessment.html" class="nav-link">Assessment</a>
+        <a href="tracker.html" class="nav-link">Tracker</a>
+        <a href="assistant.html" class="nav-link">AI Assistant</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="mobile-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================================================================= -->
+  <!-- Hero Section                                                     -->
+  <!-- ================================================================= -->
+  <section class="hero">
+    <div class="hero-bg-effects">
+      <div class="hero-particle" style="top: 20%; left: 15%; width: 6px; height: 6px;"></div>
+      <div class="hero-particle" style="top: 70%; left: 80%; width: 8px; height: 8px; animation-delay: 2s;"></div>
+      <div class="hero-particle" style="top: 40%; left: 85%; width: 5px; height: 5px; animation-delay: 1s;"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content animate-fade-in-up">
+        <div class="hero-badges">
+          <span class="badge">AI Assisted</span>
+          <span class="badge">Educational</span>
+          <span class="badge">Privacy First</span>
+        </div>
+
+        <h1 class="hero-title">
+          See Beyond Vision.<br>
+          <span>Understand Your Eye Health.</span>
+        </h1>
+
+        <p class="hero-description">
+          An intelligent platform designed by GuardHealth Technologies to help you explore eye health, learn about risk factors, and monitor your vision with cutting-edge AI assistance.
+        </p>
+
+        <div class="hero-actions">
+          <a href="assessment.html" class="btn btn-primary magnetic-glow">Start Assessment</a>
+          <a href="diseases.html" class="btn btn-outline">Explore Conditions</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-eye-canvas-wrapper animate-float">
+          <canvas id="hero-eye-canvas" width="500" height="500"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- JavaScript Files                                                 -->
+  <!-- ================================================================= -->
+  <script src="js/theme.js"></script>
+  <script src="js/navbar.js"></script>
+  
+
+</body>
+</html>
