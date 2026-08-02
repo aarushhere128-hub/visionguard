@@ -1,0 +1,46 @@
+/* =================================================================ating Styles */
+/* VisionGuard Design System - CSS Variables */
+/* ================================================================= */
+
+:root {
+  /* Color Palette - Light Mode */
+  --color-primary: #0F766E;        /* Deep Teal */
+  --color-secondary: #14B8A6;      /* Bright Teal */
+  --color-accent: #38BDF8;         /* Sky Blue */
+  --color-highlight: #A7F3D0;      /* Mint Glow */
+  --color-success: #22C55E;        /* Green */
+  
+  --color-bg: #F8FAFC;             /* Almost White */
+  --color-card: #FFFFFF;           /* Card Background */
+  --color-text-main: #0F172A;      /* Primary Text */
+  --color-text-muted: #64748B;     /* Secondary Text */
+  --color-border: #E2E8F0;         /* Border Color */
+  
+  /* Shadows & Glows */
+  --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -4px rgba(15, 23, 42, 0.1);
+  --glow-primary: 0 0 25px rgba(20, 184, 166, 0.25);
+  --glow-accent: 0 0 25px rgba(56, 189, 248, 0.25);
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode Palette Overrides */
+[data-theme="dark"] {
+  --color-bg: #071018;
+  --color-card: #0F172A;
+  --color-text-main: #F8FAFC;
+  --color-text-muted: #94A3B8;
+  --color-border: #1E293B;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+  --glow-primary: rgba(20, 184, 166, 0.25) 0px 0px 25px;
+}
